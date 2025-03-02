@@ -19,7 +19,8 @@
 }
 
 body{
-
+    background: linear-gradient(rgba(255,255,255,0.85),rgba(255,255,255,0.85)),url('bodyBcg.jpeg');
+    color: var(--black);
     color: var(--preto);
     font-family: 'Open Sans', sans-serif;
 
@@ -65,9 +66,12 @@ body{
 
 
   @media screen and (max-width: 768px){
+    .work-item{
+      margin-top: 1rem;
+    }
     
   .header{ 
-    /* background: linear-gradient(rgba(0 0 0 / 20%), rgba(0 0 0 / 20%)), url('img2.jpg'); */
+    background: linear-gradient(rgba(0 0 0 / 20%), rgba(0 0 0 / 20%)), url('img2.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -86,7 +90,7 @@ body{
   }
   .banner_social_icons{       
     
-    color: var(--amarelo)!important;
+    color: var(--castanho)!important;
     text-decoration: none;
     transition: all 0.5s linear;
     text-align: center;
@@ -98,6 +102,7 @@ body{
     font-size: 4rem;
     text-transform: capitalize;
     color: var(--amareloLuz);
+    
 
 
 
@@ -122,7 +127,12 @@ body{
 
 }
 
-
+.section-title__name {
+  font-size: 2rem ;
+  text-transform: capitalize;
+  font-family: "La Belle Aurore", cursive;
+  
+}
 
 }
 
@@ -252,6 +262,7 @@ body{
     animation-name: pulse;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    z-index: 999;
 
 }
 /* nav animations */
@@ -375,6 +386,8 @@ body{
   .section-title__name {
     font-size: 3rem ;
     text-transform: capitalize;
+    font-family: "La Belle Aurore", cursive;
+    
   }
 
   .section-title_underline{
