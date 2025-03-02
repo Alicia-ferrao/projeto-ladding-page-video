@@ -75,7 +75,10 @@ body{
   }
 
   
-  
+  .vertical_div{
+    display: none!important;
+  }
+
   .banner{
     text-align: center;
     z-index: 3;
