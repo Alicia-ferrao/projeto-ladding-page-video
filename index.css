@@ -69,6 +69,11 @@ body{
     .work-item{
       margin-top: 1rem;
     }
+    .section-title--left {
+      text-align: center;
+      margin: .5rem 0;
+    }
+   
     
   .header{ 
     background: linear-gradient(rgba(0 0 0 / 20%), rgba(0 0 0 / 20%)), url('img2.jpg');
@@ -131,6 +136,7 @@ body{
   font-size: 2rem ;
   text-transform: capitalize;
   font-family: "La Belle Aurore", cursive;
+
   
 }
 
