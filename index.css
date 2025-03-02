@@ -86,7 +86,7 @@ body{
   }
   .banner_social_icons{       
     
-    color: var(--amarelo);
+    color: var(--amarelo)!important;
     text-decoration: none;
     transition: all 0.5s linear;
     text-align: center;
