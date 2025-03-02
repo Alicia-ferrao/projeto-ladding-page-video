@@ -67,7 +67,7 @@ body{
   @media screen and (max-width: 768px){
     
   .header{ 
-    background: linear-gradient(rgba(0 0 0 / 20%), rgba(0 0 0 / 20%)), url('img2.jpg');
+    /* background: linear-gradient(rgba(0 0 0 / 20%), rgba(0 0 0 / 20%)), url('img2.jpg'); */
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -86,7 +86,8 @@ body{
   }
   .banner_social_icons{       
     
-    color: var(--castanho);
+    color: var(--amarelo);
+    text-decoration: none;
     transition: all 0.5s linear;
     text-align: center;
     font-size: 1.5rem;
